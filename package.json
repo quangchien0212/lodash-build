@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "lodash-build",
+  "version": "1.0.0",
+  "description": "Re-implement some lodash functions",
+  "main": "index.js",
+  "repository": "https://github.com/quangchien0212/lodash-build.git",
+  "author": "quangchien0212 <quangchien0212@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "jest-cli": "^29.6.2"
+  }
+}
