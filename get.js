@@ -1,4 +1,6 @@
 export default function get(obj, path, defaultValue) {
+  if (typeof obj !== 'object') return defaultValue;
+
   const parts = path.split(/[\]\[\.]/).filter((x) => x)
   let attempt = obj
 
